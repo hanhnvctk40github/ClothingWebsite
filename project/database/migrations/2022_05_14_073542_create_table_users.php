@@ -17,9 +17,9 @@ class CreateTableUsers extends Migration
             $table->bigIncrements('id');
             $table->string('password', 100);
             $table->string('email', 100);
-            $table->string('name', 300);
-            $table->string('phone_number', 20);
-            $table->string('address', 500);
+            $table->string('name', 300)->nullable($value = true);
+            $table->string('phone_number', 20)->nullable($value = true);
+            $table->string('address', 500)->nullable($value = true);
             $table->timestamps();
         });
     }

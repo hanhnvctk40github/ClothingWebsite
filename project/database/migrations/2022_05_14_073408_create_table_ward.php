@@ -17,6 +17,7 @@ class CreateTableWard extends Migration
             $table->string('xaid', 5);
             $table->string('name', 100);
             $table->string('type', 30);
+            $table->string('maqh', 5);
             $table->timestamps();
             $table->primary('xaid');
         });
