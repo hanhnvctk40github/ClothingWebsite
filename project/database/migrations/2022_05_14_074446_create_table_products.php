@@ -19,7 +19,8 @@ class CreateTableProducts extends Migration
             $table->bigInteger('category_id_lv2')->nullable($value = true);
             $table->string('name', 200);
             $table->string('sku', 400);
-            $table->string('images', 500)->nullable($value = true);
+            $table->string('main_image', 200);
+            $table->string('sub_images', 500)->nullable($value = true);
             $table->longText('desc');
             $table->integer('technical_price')->nullable($value = true);
             $table->integer('price');

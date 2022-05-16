@@ -44,6 +44,7 @@
     <meta property="og:site_name" content="tstore.com.vn">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="vi_VN"> --}}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Favicon Icon -->
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/images/logo/favicon.png') }}">
